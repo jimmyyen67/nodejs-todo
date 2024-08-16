@@ -9,6 +9,8 @@ services:
       - mongodb
     environment:
       - MONGODB_URI=mongodb://localhost:27017/todo
+    volumes:
+      - ./src:/usr/src/app/src
 
   mongodb:
     image: mongo:latest
