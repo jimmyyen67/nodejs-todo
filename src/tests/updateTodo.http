@@ -1,0 +1,7 @@
+PUT http://localhost:3000/todos/66bf1465d8a5670e28268751
+Content-Type: application/json
+
+{
+    "text": "Go to the gym",
+    "priority": "low"
+}
